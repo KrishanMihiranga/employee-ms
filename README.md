@@ -39,7 +39,7 @@ This project is a comprehensive Employee Management System (EMS) built using Spr
 3. **Run the Application:**
 
     ```bash
-    cd employee-management-system
+    cd employeems
     mvn spring-boot:run
     ```
 
@@ -49,27 +49,27 @@ This project is a comprehensive Employee Management System (EMS) built using Spr
 
 Use Postman or any API testing tool to interact with the API endpoints. Here are the available endpoints:
 
-- **Create Employee:**
+- **saveEmployee:**
   - Method: POST
-  - URL: `http://localhost:8080/api/employees`
+  - URL: `http://localhost:8080/api/v1/employee/saveEmployee`
   - Body: JSON payload with employee details.
 
-- **Get All Employees:**
+- **getAllEmployees:**
   - Method: GET
-  - URL: `http://localhost:8080/api/employees`
+  - URL: `http://localhost:8080/api/v1/employee/getAllEmployees`
 
-- **Get Employee by ID:**
+- **searchEmployee:**
   - Method: GET
-  - URL: `http://localhost:8080/api/employees/{employeeId}`
-
-- **Update Employee:**
-  - Method: PUT
-  - URL: `http://localhost:8080/api/employees/{employeeId}`
+  - URL: `http://localhost:8080/api/v1/employee/searchEmployee/{empId}`
   - Body: JSON payload with updated employee details.
 
-- **Delete Employee:**
+- **deleteEmployee:**
   - Method: DELETE
-  - URL: `http://localhost:8080/api/employees/{employeeId}`
+  - URL: `http://localhost:8080/api/v1/employee/deleteEmployee/{empId}`
+
+- **updateEmployee:**
+  - Method: PUT
+  - URL: `http://localhost:8080/api/v1/employee/updateEmployee`
 
 ### Dependencies
 
