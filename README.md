@@ -1,6 +1,6 @@
 # Employee Management System with Spring Boot
 
-[![Build Status](https://travis-ci.org/your-username/employee-management-system.svg?branch=main)](https://travis-ci.org/your-username/employee-management-system)
+[![Build Status](https://travis-ci.org/KrishanMihiranga/employee-ms.svg?branch=main)](https://travis-ci.org/KrishanMihiranga/employee-ms)
 
 ## Overview
 
